@@ -1,0 +1,9 @@
+{
+  "script": "return (function (elem) {\n        return (function () {\n        return this.nextElementSibling;\n    }).call(elem);\n    }).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "a06e75f5-3e0e-4ce8-a85d-dd7374d8e770",
+      "ELEMENT": "a06e75f5-3e0e-4ce8-a85d-dd7374d8e770"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646074160807' stop='1646074160836'>
+    <name>User can create a fixed rate contract</name>
+    <title>User can create a fixed rate contract</title>
+    <test-cases>
+        <test-case start='1646074160807' status='passed' stop='1646074160824'>
+            <name>should login with valid credentials and verify the login</name>
+            <title>should login with valid credentials and verify the login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646074160812' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e2271e5a-1328-47bb-9989-892fe946955f-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

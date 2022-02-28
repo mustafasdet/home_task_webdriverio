@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646074804305' stop='1646074804350'>
+    <name>User can create a fixed rate contract</name>
+    <title>User can create a fixed rate contract</title>
+    <test-cases>
+        <test-case start='1646074804306' status='passed' stop='1646074804348'>
+            <name>should login with valid credentials and verify the login</name>
+            <title>should login with valid credentials and verify the login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646074804321' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='06a80ae5-83da-4d07-991b-bd02fe922879-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1646074804335' status='undefined'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='30c9074a-2141-4b9a-b10b-4032764f64e5-attachment.json' type='application/json' size='46'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

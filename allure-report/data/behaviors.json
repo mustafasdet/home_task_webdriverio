@@ -1,0 +1,141 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "user enters valid credentials and has access to application",
+    "uid" : "52d132c19004995e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000009948,
+      "stop" : 1643000016244,
+      "duration" : 6296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user clicks contracts menu",
+    "uid" : "c2c2e254f43310a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000016244,
+      "stop" : 1643000016330,
+      "duration" : 86
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user selects fixed rate contract option",
+    "uid" : "a594a0cf7df9c789",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000016331,
+      "stop" : 1643000017049,
+      "duration" : 718
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user fills General Info form",
+    "uid" : "47a18ac253526fa4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000017049,
+      "stop" : 1643000018977,
+      "duration" : 1928
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user fills Payment Details form",
+    "uid" : "573b9e3fd86803b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000018977,
+      "stop" : 1643000019697,
+      "duration" : 720
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user fills Define Dates form",
+    "uid" : "8478d6e9d7b51b14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000019697,
+      "stop" : 1643000019790,
+      "duration" : 93
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user fills Benefits and Extras form",
+    "uid" : "d1cf89c339ad7210",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000019790,
+      "stop" : 1643000020124,
+      "duration" : 334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "user creates contract with Compliance form",
+    "uid" : "7846f4cebe3219ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643000020124,
+      "stop" : 1643000021778,
+      "duration" : 1654
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  } ]
+}

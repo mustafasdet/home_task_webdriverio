@@ -1,0 +1,135 @@
+{
+  "uid" : "c2c2e254f43310a4",
+  "name" : "user clicks contracts menu",
+  "fullName" : "User should be able to create Fixed Rate Contract.user clicks contracts menu",
+  "historyId" : "4ea34a48963c6b213924d516980a9f77",
+  "time" : {
+    "start" : 1643000016244,
+    "stop" : 1643000016330,
+    "duration" : 86
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1643000016245,
+        "stop" : 1643000016256,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8eb2e1f8f5ac500e",
+        "name" : "Request",
+        "source" : "8eb2e1f8f5ac500e.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "43f649e601b11cec",
+        "name" : "Response",
+        "source" : "43f649e601b11cec.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/cb462291-7e01-436a-bd72-8ead67e966ec/click",
+      "time" : {
+        "start" : 1643000016257,
+        "stop" : 1643000016319,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1643000016320,
+        "stop" : 1643000016329,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d3ee2c6b5a53bc8",
+        "name" : "Response",
+        "source" : "8d3ee2c6b5a53bc8.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "testClass",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "testMethod",
+    "value" : "user clicks contracts menu"
+  }, {
+    "name" : "package",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2c2e254f43310a4.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

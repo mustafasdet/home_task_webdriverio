@@ -1,0 +1,81 @@
+[ {
+  "uid" : "a594a0cf7df9c789",
+  "name" : "user selects fixed rate contract option",
+  "time" : {
+    "start" : 1643000016331,
+    "stop" : 1643000017049,
+    "duration" : 718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52d132c19004995e",
+  "name" : "user enters valid credentials and has access to application",
+  "time" : {
+    "start" : 1643000009948,
+    "stop" : 1643000016244,
+    "duration" : 6296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c2e254f43310a4",
+  "name" : "user clicks contracts menu",
+  "time" : {
+    "start" : 1643000016244,
+    "stop" : 1643000016330,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1cf89c339ad7210",
+  "name" : "user fills Benefits and Extras form",
+  "time" : {
+    "start" : 1643000019790,
+    "stop" : 1643000020124,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8478d6e9d7b51b14",
+  "name" : "user fills Define Dates form",
+  "time" : {
+    "start" : 1643000019697,
+    "stop" : 1643000019790,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7846f4cebe3219ae",
+  "name" : "user creates contract with Compliance form",
+  "time" : {
+    "start" : 1643000020124,
+    "stop" : 1643000021778,
+    "duration" : 1654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47a18ac253526fa4",
+  "name" : "user fills General Info form",
+  "time" : {
+    "start" : 1643000017049,
+    "stop" : 1643000018977,
+    "duration" : 1928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "573b9e3fd86803b0",
+  "name" : "user fills Payment Details form",
+  "time" : {
+    "start" : 1643000018977,
+    "stop" : 1643000019697,
+    "duration" : 720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

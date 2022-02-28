@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646074461522' stop='1646074462356'>
+    <name>User can create a fixed rate contract</name>
+    <title>User can create a fixed rate contract</title>
+    <test-cases>
+        <test-case start='1646074461523' status='broken' stop='1646074462353'>
+            <name>should login with valid credentials and verify the login</name>
+            <title>should login with valid credentials and verify the login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646074461525' status='passed' stop='1646074461873'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='970284cb-bb0a-4a20-b617-2b143bfe2bc1-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d7eac0e8-681e-4350-b8b0-f2c5b5c2fe61-attachment.png' type='image/png' size='18898'/>
+            </attachments>
+            <failure>
+                <message>loginPage is not defined</message>
+                <stack-trace>ReferenceError: loginPage is not defined
+                    at Context.&lt;anonymous> (/Users/tarikazra/webdriverio-test/Home_Task/test/specs/endtoend.js:6:9)
+                    at Context.executeAsync (/Users/tarikazra/node_modules/@wdio/utils/build/shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (/Users/tarikazra/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

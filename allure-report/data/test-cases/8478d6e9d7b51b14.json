@@ -1,0 +1,168 @@
+{
+  "uid" : "8478d6e9d7b51b14",
+  "name" : "user fills Define Dates form",
+  "fullName" : "User should be able to create Fixed Rate Contract.user fills Define Dates form",
+  "historyId" : "b92a8189db3000fbbafab3d6a2cac006",
+  "time" : {
+    "start" : 1643000019697,
+    "stop" : 1643000019790,
+    "duration" : 93
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1643000019698,
+        "stop" : 1643000019710,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44a2e7f2daeb1255",
+        "name" : "Request",
+        "source" : "44a2e7f2daeb1255.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "b85d9b476abbde1a",
+        "name" : "Response",
+        "source" : "b85d9b476abbde1a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1643000019712,
+        "stop" : 1643000019726,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53ebf611afabe9b1",
+        "name" : "Request",
+        "source" : "53ebf611afabe9b1.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "64d23ee42fbfa50c",
+        "name" : "Response",
+        "source" : "64d23ee42fbfa50c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1643000019727,
+        "stop" : 1643000019737,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f74b093093dcc88",
+        "name" : "Request",
+        "source" : "2f74b093093dcc88.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "9422a3b65e488c38",
+        "name" : "Response",
+        "source" : "9422a3b65e488c38.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/45e399c7-7db9-4eb9-8aaf-e870cc92e25b/click",
+      "time" : {
+        "start" : 1643000019739,
+        "stop" : 1643000019790,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "testClass",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "testMethod",
+    "value" : "user fills Define Dates form"
+  }, {
+    "name" : "package",
+    "value" : "User should be able to create Fixed Rate Contract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8478d6e9d7b51b14.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}
