@@ -2,16 +2,16 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "User should be able to create Fixed Rate Contract",
+    "name" : "User can create a fixed rate contract",
     "children" : [ {
-      "name" : "user enters valid credentials and has access to application",
-      "uid" : "52d132c19004995e",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "should login with valid credentials and verify the login",
+      "uid" : "7f52fdd402945376",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000009948,
-        "stop" : 1643000016244,
-        "duration" : 6296
+        "start" : 1646197053265,
+        "stop" : 1646197058941,
+        "duration" : 5676
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,16 +19,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user clicks contracts menu",
-      "uid" : "c2c2e254f43310a4",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "navigates to create contract",
+      "uid" : "b1ebecfa6d0a5438",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000016244,
-        "stop" : 1643000016330,
-        "duration" : 86
+        "start" : 1646197058942,
+        "stop" : 1646197059039,
+        "duration" : 97
       },
       "flaky" : false,
       "newFailed" : false,
@@ -36,16 +36,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user selects fixed rate contract option",
-      "uid" : "a594a0cf7df9c789",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "verify logged in",
+      "uid" : "8f9631f4f7e03086",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000016331,
-        "stop" : 1643000017049,
-        "duration" : 718
+        "start" : 1646197058942,
+        "stop" : 1646197058942,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -53,16 +53,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user fills General Info form",
-      "uid" : "47a18ac253526fa4",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "navigates to fixed rate and verifies the contract type",
+      "uid" : "7d28c89ed2b62c2a",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000017049,
-        "stop" : 1643000018977,
-        "duration" : 1928
+        "start" : 1646197059040,
+        "stop" : 1646197059661,
+        "duration" : 621
       },
       "flaky" : false,
       "newFailed" : false,
@@ -70,16 +70,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user fills Payment Details form",
-      "uid" : "573b9e3fd86803b0",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "sends valid data to fill in general info",
+      "uid" : "ec87791f306d1643",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000018977,
-        "stop" : 1643000019697,
-        "duration" : 720
+        "start" : 1646197059661,
+        "stop" : 1646197062091,
+        "duration" : 2430
       },
       "flaky" : false,
       "newFailed" : false,
@@ -87,16 +87,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user fills Define Dates form",
-      "uid" : "8478d6e9d7b51b14",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "verify the page and fills in payment details",
+      "uid" : "16edc25569db2d6c",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000019697,
-        "stop" : 1643000019790,
-        "duration" : 93
+        "start" : 1646197062091,
+        "stop" : 1646197063502,
+        "duration" : 1411
       },
       "flaky" : false,
       "newFailed" : false,
@@ -104,16 +104,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user fills Benefits and Extras form",
-      "uid" : "d1cf89c339ad7210",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "verifies the page and fills in Define dates form",
+      "uid" : "b967146c02631d12",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000019790,
-        "stop" : 1643000020124,
-        "duration" : 334
+        "start" : 1646197063502,
+        "stop" : 1646197063590,
+        "duration" : 88
       },
       "flaky" : false,
       "newFailed" : false,
@@ -121,16 +121,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
     }, {
-      "name" : "user creates contract with Compliance form",
-      "uid" : "7846f4cebe3219ae",
-      "parentUid" : "b46bf0dfe7a95a9150461fa589b9aae7",
+      "name" : "verifies the page and fills in Benefits and extras",
+      "uid" : "9dd531360b4b9038",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
       "status" : "passed",
       "time" : {
-        "start" : 1643000020124,
-        "stop" : 1643000021778,
-        "duration" : 1654
+        "start" : 1646197063590,
+        "stop" : 1646197063802,
+        "duration" : 212
       },
       "flaky" : false,
       "newFailed" : false,
@@ -138,8 +138,25 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "creates the contract",
+      "uid" : "da8f4b93cb83f71d",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646197063802,
+        "stop" : 1646197065399,
+        "duration" : 1597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
     } ],
-    "uid" : "b46bf0dfe7a95a9150461fa589b9aae7"
+    "uid" : "8519e3318425f338913a2c04ceb4eebd"
   } ]
 }

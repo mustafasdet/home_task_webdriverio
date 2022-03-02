@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//p[normalize-space() = \"Termination date\"]"
+}

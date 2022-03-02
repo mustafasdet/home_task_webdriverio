@@ -1,0 +1,168 @@
+{
+  "uid" : "b967146c02631d12",
+  "name" : "verifies the page and fills in Define dates form",
+  "fullName" : "User can create a fixed rate contract.verifies the page and fills in Define dates form",
+  "historyId" : "9c7261f9b6b10ae1e1e3dcf4c6fb8136",
+  "time" : {
+    "start" : 1646197063502,
+    "stop" : 1646197063590,
+    "duration" : 88
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1646197063503,
+        "stop" : 1646197063513,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b82f8ba1d62deb2d",
+        "name" : "Request",
+        "source" : "b82f8ba1d62deb2d.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "199fe95d620367d2",
+        "name" : "Response",
+        "source" : "199fe95d620367d2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1646197063515,
+        "stop" : 1646197063523,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3664b49125f7dded",
+        "name" : "Request",
+        "source" : "3664b49125f7dded.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "7007d8ec55ec07fb",
+        "name" : "Response",
+        "source" : "7007d8ec55ec07fb.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1646197063524,
+        "stop" : 1646197063530,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50d2bd3c6a59e0e7",
+        "name" : "Request",
+        "source" : "50d2bd3c6a59e0e7.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "65888da0b3cae96f",
+        "name" : "Response",
+        "source" : "65888da0b3cae96f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/30eed109-7442-4379-bd77-da22f4dc7730/click",
+      "time" : {
+        "start" : 1646197063531,
+        "stop" : 1646197063589,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "testClass",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifies the page and fills in Define dates form"
+  }, {
+    "name" : "package",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.109"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b967146c02631d12.json",
+  "parameterValues" : [ "chrome-98.0.4758.109" ]
+}
